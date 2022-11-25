@@ -20,8 +20,8 @@ pipeline {
         }
         stage('Test Code extra stage') {
             steps {
-                sh "chmod u+x unit_test_extra_stage.py"
-                sh "./unit_test_extra_stage.py"
+                sh "chmod u+x unit_test_2.py"
+                sh "./unit_test_2.py"
             }
         }
         stage('Test Code Failed') {
